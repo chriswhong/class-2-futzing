@@ -15,6 +15,76 @@ const albumData = {
         alt: "Green Day"
     }
 }
+
+// strings
+
+const firstName = "Chris"
+const lastName = "Whong"
+
+const fullName = firstName + " " + lastName
+
+console.log('fullName', fullName)
+
+// use template literal notation
+
+const fullNameAsTemplateLiteral = `${firstName} ${lastName} is a pretty ok professor`
+
+console.log('fullNameAsTemplateLiteral', fullNameAsTemplateLiteral)
+
+// numbers
+
+const age = 44
+
+const ageInTenYears = age + 10
+
+console.log('ageInTenYears', ageInTenYears)
+
+console.log('ageAsString', age.toString())
+
+console.log('parse Integer from string 44.5', parseInt("44.5"))
+
+// booleans
+
+const chrisIsCool = true
+
+console.log('the opposite of is chris cool', !chrisIsCool)
+
+if (chrisIsCool) {
+    console.log('chris is cool')
+} else {
+    console.log('chris is not cool')
+}
+
+
+// arrays
+
+const favoriteAlbums = ["Third Eye Blind", "Sublime", "Green Day"]
+
+console.log('get the 2nd item in the array --->', favoriteAlbums[1])
+
+favoriteAlbums.forEach((album) => {
+    console.log('album in forEach Loop', album)
+})
+
+
+// array of object
+
+[
+    {
+        name: "Chris",
+        age: 44
+    },
+    {
+        name: "John",
+        age: 22
+    }
+]
+
+
+
+
+// objects
+
     
 
 
